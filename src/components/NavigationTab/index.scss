@@ -1,0 +1,52 @@
+@import "../../styles/colors";
+
+.navTab {
+  position: absolute;
+  width: 80px;
+  left: -88px;
+  top: 25%;
+  background-color: $bgSecondaryColor;
+  margin-right: 8px;
+  border-radius: 4px;
+  max-height: 220px;
+
+  &__item {
+    border-bottom: 0.5px solid $borderColor;
+    padding: 8px;
+    &:last-child {
+      border-bottom: 0px;
+    }
+    cursor: pointer;
+    &:hover {
+      svg {
+        fill: $heading;
+      }
+      color: $heading;
+    }
+    @media only screen and (max-width: 768px) {
+      border-bottom: 0px;
+    }
+  }
+
+  &__text {
+    margin-top: 4px;
+    font-size: 12px;
+  }
+
+  &__selected {
+    svg {
+      fill: $heading;
+    }
+    color: $heading;
+  }
+  @media only screen and (max-width: 768px) {
+    position: fixed;
+    left: auto;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    top: auto;
+    width: 100%;
+    border-top: 1px solid $borderColor;
+  }
+}

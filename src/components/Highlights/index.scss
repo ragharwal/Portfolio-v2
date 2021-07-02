@@ -1,0 +1,17 @@
+@import "../../styles/colors";
+
+.highlights {
+  ul {
+    padding-left: 18px;
+    li {
+      margin: 8px;
+      a {
+        color: $headingSecondary;
+        &:visited,
+        &:active {
+          color: $headingSecondary;
+        }
+      }
+    }
+  }
+}

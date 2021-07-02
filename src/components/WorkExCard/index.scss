@@ -1,0 +1,30 @@
+@import "../../styles/colors";
+
+.workCard {
+  padding-bottom: 8px;
+  width: 90%;
+  &__role {
+    font-weight: 600;
+    color: $headingSecondary;
+    margin-bottom: 4px;
+  }
+  &__badge {
+    border: 1px solid $heading;
+    color: $heading;
+    background-color: transparent;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  &__description {
+    margin-top: 24px;
+    li {
+      margin-bottom: 4px;
+    }
+  }
+
+  &__divider {
+    height: 1px;
+    background-color: $borderColor;
+    margin: 12px 0px;
+  }
+}

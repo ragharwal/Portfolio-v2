@@ -1,0 +1,18 @@
+@import "../../styles/colors";
+
+.socialLinks {
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+  &__icons {
+    margin-right: 12px;
+    path {
+      fill: $headingSecondary;
+    }
+    &:hover {
+      path {
+        fill: $heading;
+      }
+    }
+  }
+}
