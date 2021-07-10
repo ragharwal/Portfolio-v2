@@ -5,7 +5,7 @@ export default () => {
   return (
     <div className="highlights">
       <ul>
-        <li>Mentored the students to start their open source journey</li>
+        <li>Winner of Hacktober Fest 2020</li>
       </ul>
     </div>
   );

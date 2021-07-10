@@ -44,7 +44,7 @@ export default props => {
         }}
       >
         <FontAwesomeIcon icon={faLaptopCode} />
-        <div className="navTab__text">Skills</div>
+        <div className="navTab__text">Projects</div>
       </div>
       <div
         className={`navTab__item ${

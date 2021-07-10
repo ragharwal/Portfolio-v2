@@ -17,42 +17,34 @@ const data = {
         heading: "About Me",
         topSection: {
           heading: "",
-          text: "description",
+          text: "Skills",
         },
         bottomSection: {
           heading: "",
           list: [
             {
               Component: InfoBadge,
-              props: { badgeText: "Age", badgeSubtext: 21 },
+              props: { badgeText: "Languages", badgeSubtext: "C/C++ , Java, Javascript and Python" },
             },
             {
               Component: InfoBadge,
               props: {
-                badgeText: "Residence",
-                badgeSubtext: "UttarPradesh, India",
+                badgeText: "Frameworks",
+                badgeSubtext: "Node JS, React JS and DJango",
               },
             },
-
-            // {
-            //   Component: InfoBadge,
-            //   props: {
-            //     badgeText: "Current Role",
-            //     badgeSubtext: "Developer",
-            //   },
-            // },
             {
               Component: InfoBadge,
               props: {
-                badgeText: "Email",
-                badgeSubtext: "xyz@gmail.com",
+                badgeText: "Database",
+                badgeSubtext: "MySQL, Oracle, SQLite and MongoDB",
               },
             },
           ],
         },
       },
       {
-        heading: "Highlights",
+        heading: "Achievements",
         topSection: {
           Component: Highlights,
         },
@@ -62,7 +54,7 @@ const data = {
   skills: {
     sections: [
       {
-        heading: "Skills",
+        heading: "Projects",
         bottomSection: {
           list: [
             {
@@ -113,10 +105,43 @@ const data = {
             {
               Component: WorkExCard,
               props: {
-                from: "Feb, 2021",
-                to: "May, 2021",
-                companyName: "Cerebro Kids",
-                role: "Intern",
+                from: "April, 2021",
+                to: "Present",
+                companyName: "ThinkBig Data Community",
+                role: "Technical Head",
+                description:
+                  "Developed an e-commerce consumer facing website template.",
+              },
+            },
+            {
+              Component: WorkExCard,
+              props: {
+                from: "Jan, 2021",
+                to: "Present",
+                companyName: "National Service Scheme",
+                role: "Core Committee Member",
+                description:
+                  "Developed an e-commerce consumer facing website template.",
+              },
+            },
+            {
+              Component: WorkExCard,
+              props: {
+                from: "Oct, 2020",
+                to: "Present",
+                companyName: "Open Community",
+                role: "Lead Student Developer",
+                description:
+                  "Developed an e-commerce consumer facing website template.",
+              },
+            },
+            {
+              Component: WorkExCard,
+              props: {
+                from: "Jan, 2020",
+                to: "Present",
+                companyName: "MIDAS",
+                role: "Member Secretory",
                 description:
                   "Developed an e-commerce consumer facing website template.",
               },
@@ -136,13 +161,14 @@ const data = {
               Component: WorkExCard,
               props: {
                 to: "Present",
-                from: "May, 2019",
-                role: "Bacherlors of Technology, Computer Science and Engineering",
-                companyName: "University of Petroleum and Energy Studies",
+                from: "July, 2019",
+                role: "B.Tech (Hons) Computer Science and Engineering - Big Data",
+                companyName: "University of Petroleum and Energy Studies, Dehradun",
                 description: [
-                  "CGPA: 9.08/10",
-                  "Lead Student Developer at UPES-OPEN | Open source organisation",
-                  "Associate Technical Head of UPES-Hypersvision",
+                  "GPA: 8.81/10",
+                  "Lead Student Developer at Open Community",
+                  "Technical Head at ThinkBig Data Community",
+                  "Core Committee Member at National Service Scheme"
                 ],
               },
             },
@@ -150,22 +176,27 @@ const data = {
               Component: WorkExCard,
               props: {
                 to: "March, 2019",
-                from: "March, 2017",
+                from: "April, 2017",
                 role: "Senior Secondary School",
-                companyName: "Scholar English Academy",
-                description: ["Scored 80%", "Part of cricket and debate team"],
+                companyName: "Asha Modern School, Saharanpur",
+                description: [
+                  "Percentage: 91.1%", 
+                  "Member at Discipline Committee",
+                  "Prefect at Marsahal Neil House"
+                ],
               },
             },
             {
               Component: WorkExCard,
               props: {
                 to: "March, 2017",
-                from: "March, 2015",
+                from: "April, 2015",
                 role: "Secondary School",
-                companyName: "Delhi Public School Surat",
+                companyName: "Asha Mordern School, Saharanpur",
                 description: [
-                  "CGPA: 10/10",
-                  "Won several prizes for debate and art competitions",
+                  "CGPA: 7.8/10",
+                  "Member at Prithvi Mitra Society",
+                  "Assistant Prefect at Marsahal Neil House"
                 ],
               },
             },
@@ -208,14 +239,14 @@ export default class Index extends Component {
               <img src="/header.png" alt="" loading="lazy" />
             </div>
             <div className="profileCard__profileImg">
-              <img src="/profile_img.jpg" loading="lazy" alt="" />
+              <img src="/RaghavAgarwalUPES.jpg" loading="lazy" alt="" />
             </div>
             <div className="profileCard__infoWrapper">
               <div className="profileCard__infoWrapper--heading">
-                Sanyam Mehendiratta
+                Raghav Agarwal
               </div>
               <div className="profileCard__infoWrapper--subheading">
-                Software Developer
+                Full Stack Web Developer
               </div>
               <SocialLinks />
               <ProfileCardFooter />
