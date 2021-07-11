@@ -1,9 +1,9 @@
 @import "../../styles/colors";
 
-.workCard {
+.projectCard {
   padding-bottom: 8px;
   width: 90%;
-  &__role {
+  &__name{
     font-weight: 600;
     color: $headingSecondary;
     margin-bottom: 4px;
@@ -15,7 +15,7 @@
     font-size: 12px;
     text-transform: uppercase;
   }
-  &__description {
+  &__features {
     margin-top: 24px;
     li {
       margin-left: 25px;

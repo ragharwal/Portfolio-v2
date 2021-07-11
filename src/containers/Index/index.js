@@ -6,6 +6,7 @@ import InfoBadge from "../../components/InfoBadge";
 import AboutBadge from "../../components/AboutBadge";
 import ProgressBar from "../../components/ProgressBar";
 import WorkExCard from "../../components/WorkExCard";
+import ProjectCard from "../../components/ProjectCard";
 import NavigationTab from "../../components/NavigationTab";
 import { detectMobile } from "../../utils/helper";
 import "./index.scss";
@@ -66,38 +67,15 @@ const data = {
         bottomSection: {
           list: [
             {
-              Component: ProgressBar,
-              props: { name: "Javascript", highLight: 90 },
-            },
-            {
-              Component: ProgressBar,
-              props: { name: "React JS", highLight: 85 },
-            },
-            {
-              Component: ProgressBar,
-              props: { name: "Redux JS", highLight: 75 },
-            },
-            {
-              Component: ProgressBar,
-              props: { name: "Node JS", highLight: 80 },
-            },
-            {
-              Component: ProgressBar,
-              props: { name: "HTML", highLight: 70 },
-            },
-            {
-              Component: ProgressBar,
-              props: { name: "CSS", highLight: 65 },
-            },
-            { Component: ProgressBar, props: { name: "Nginx", highLight: 80 } },
-            {
-              Component: ProgressBar,
-              props: { name: "Web Performace", highLight: 75 },
-            },
-            { Component: ProgressBar, props: { name: "Redis", highLight: 65 } },
-            {
-              Component: ProgressBar,
-              props: { name: "AWS", highLight: 60 },
+              Component: ProjectCard,
+              props: {
+                name: "SNAPPPRR",
+                description: "A photography webpage that is build in a grid-filter form to display images. ",
+                features: [
+                  "Snappprr",
+                  "Grid Filter",
+                ],
+              },
             },
           ],
         },
