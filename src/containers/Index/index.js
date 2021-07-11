@@ -77,7 +77,7 @@ const data = {
                 description:
                   "A photography webpage that is build in a grid-filter form to display images. ",
                 features: ["Snappprr", "Grid Filter"],
-                url: "http//facebook.com",
+                url: "http://facebook.com",
               },
             },
           ],
