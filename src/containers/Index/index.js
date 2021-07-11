@@ -11,6 +11,7 @@ import NavigationTab from "../../components/NavigationTab";
 import { detectMobile } from "../../utils/helper";
 import "./index.scss";
 import Highlights from "../../components/Highlights";
+import Transition from "../../components/TextTransition/Transition";
 
 const data = {
   about: {
@@ -26,7 +27,10 @@ const data = {
           list: [
             {
               Component: AboutBadge,
-              props: { aboutBadgeText: "Languages:", aboutBadgeSubtext: "C/C++ , Java, Javascript and Python" },
+              props: {
+                aboutBadgeText: "Languages:",
+                aboutBadgeSubtext: "C/C++ , Java, Javascript and Python",
+              },
             },
             {
               Component: AboutBadge,
@@ -70,11 +74,9 @@ const data = {
               Component: ProjectCard,
               props: {
                 name: "SNAPPPRR",
-                description: "A photography webpage that is build in a grid-filter form to display images. ",
-                features: [
-                  "Snappprr",
-                  "Grid Filter",
-                ],
+                description:
+                  "A photography webpage that is build in a grid-filter form to display images. ",
+                features: ["Snappprr", "Grid Filter"],
               },
             },
           ],
@@ -149,12 +151,13 @@ const data = {
                 to: "Present",
                 from: "July, 2019",
                 role: "B.Tech (Hons) Computer Science and Engineering - Big Data",
-                companyName: "University of Petroleum and Energy Studies, Dehradun",
+                companyName:
+                  "University of Petroleum and Energy Studies, Dehradun",
                 description: [
                   "GPA: 8.81/10",
                   "Lead Student Developer at Open Community",
                   "Technical Head at ThinkBig Data Community",
-                  "Core Committee Member at National Service Scheme"
+                  "Core Committee Member at National Service Scheme",
                 ],
               },
             },
@@ -166,9 +169,9 @@ const data = {
                 role: "Senior Secondary School",
                 companyName: "Asha Modern School, Saharanpur",
                 description: [
-                  "Percentage: 91.1%", 
+                  "Percentage: 91.1%",
                   "Member at Discipline Committee",
-                  "Prefect at Marsahal Neil House"
+                  "Prefect at Marsahal Neil House",
                 ],
               },
             },
@@ -182,7 +185,7 @@ const data = {
                 description: [
                   "CGPA: 7.8/10",
                   "Member at Prithvi Mitra Society",
-                  "Assistant Prefect at Marsahal Neil House"
+                  "Assistant Prefect at Marsahal Neil House",
                 ],
               },
             },
@@ -232,7 +235,9 @@ export default class Index extends Component {
                 Raghav Agarwal
               </div>
               <div className="profileCard__infoWrapper--subheading">
-                Full Stack Web Developer
+                <div style={{ textAlign: "center" }}>
+                  <Transition />
+                </div>
               </div>
               <SocialLinks />
               <ProfileCardFooter />
