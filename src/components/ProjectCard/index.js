@@ -1,15 +1,15 @@
 import React from "react";
 import "./index.scss";
 
-export default props => {
-  const { name, description, features } = props;
+export default (props) => {
+  const { name, description, features, url } = props;
   if (!name) {
     return null;
   }
   let featuresItems = null;
   if (features) {
     if (features.constructor === Array && features.length) {
-      featuresItems = features.map(item => <li>{item}</li>);
+      featuresItems = features.map((item) => <li>{item}</li>);
     } else {
       featuresItems = features;
     }
@@ -23,6 +23,13 @@ export default props => {
         null}
       {featuresItems && (
         <div className="projectCard__features"> {featuresItems} </div>
+      )}
+      {url && (
+        <div className="projectCard__url">
+          <a href={url} target="_blank">
+            Source Code
+          </a>
+        </div>
       )}
       <div className="projectCard__divider"></div>
     </div>
