@@ -3,6 +3,7 @@ import SocialLinks from "../../components/SocialLinks";
 import ProfileCardFooter from "../../components/ProfileCardFooter";
 import ProfileInfo from "../../components/ProfileInfo";
 import InfoBadge from "../../components/InfoBadge";
+import AboutBadge from "../../components/AboutBadge";
 import ProgressBar from "../../components/ProgressBar";
 import WorkExCard from "../../components/WorkExCard";
 import NavigationTab from "../../components/NavigationTab";
@@ -16,38 +17,45 @@ const data = {
       {
         heading: "About Me",
         topSection: {
-          heading: "",
-          text: "Skills",
+          heading: "I am Raghav Agarwal",
+          text: "I am Raghav Agarwal",
         },
         bottomSection: {
           heading: "",
           list: [
             {
-              Component: InfoBadge,
+              Component: AboutBadge,
               props: {
-                badgeText: "Languages",
-                badgeSubtext: "C/C++ , Java, Javascript and Python",
+                aboutBadgeText: "Languages:",
+                aboutBadgeSubtext: "C/C++ , Java, Javascript and Python",
               },
             },
             {
-              Component: InfoBadge,
+              Component: AboutBadge,
               props: {
-                badgeText: "Frameworks",
-                badgeSubtext: "Node JS, React JS and DJango",
+                aboutBadgeText: "Frameworks:",
+                aboutBadgeSubtext: "Node JS, React JS and DJango",
               },
             },
             {
-              Component: InfoBadge,
+              Component: AboutBadge,
               props: {
-                badgeText: "Database",
-                badgeSubtext: "MySQL, Oracle, SQLite and MongoDB",
+                aboutBadgeText: "Database:",
+                aboutBadgeSubtext: "MySQL, Oracle, SQLite and MongoDB",
+              },
+            },
+            {
+              Component: AboutBadge,
+              props: {
+                aboutBadgeText: "Software:",
+                aboutBadgeSubtext: "Atom, VSCode, Sublime and Intellij Idea",
               },
             },
           ],
         },
       },
       {
-        heading: "Achievements",
+        heading: "Highlights",
         topSection: {
           Component: Highlights,
         },

@@ -1,0 +1,37 @@
+@import "../../styles/colors";
+
+.aboutBadgeWrapper {
+  display: flex;
+  background-color: transparentize($heading, 0.4);
+  border-radius: 4px;
+  width: 60%;
+  margin: 12px 0px;
+  align-items: space-around;
+justify-content: space-between;
+text-align: center;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  &__text {
+    font-size: 14px;
+    justify-content: space-between;
+    padding: 4px 12px;
+    align-items: flex-start;
+    color: $headingSecondary;
+    // margin-right: 10px;
+    @media only screen and (max-width: 768px) {
+      padding: 4px;
+    }
+  }
+
+  &__subtext {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 14px;
+  }
+}
