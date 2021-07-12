@@ -12,7 +12,7 @@ export default (props) => {
   return (
     <div className="socialLinks">
       <a
-        href="https://www.linkedin.com/in/ragharwal/"
+        href="https://www.linkedin.com/in/sanyam-mehendiratta-2b0640190/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -23,7 +23,7 @@ export default (props) => {
         />
       </a>
       <a
-        href="https://github.com/ragharwal"
+        href="https://github.com/Sanyam2000-dot"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -34,7 +34,7 @@ export default (props) => {
         />
       </a>
       <a
-        href="https://www.instagram.com/raghrwal/"
+        href="https://www.instagram.com/sanyam.mehendiratta/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -45,7 +45,7 @@ export default (props) => {
         />
       </a>
       <a
-        href="https://www.twitter.com/ragharwal/"
+        href="https://twitter.com/__waitforit___"
         target="_blank"
         rel="noopener noreferrer"
       >

@@ -2,9 +2,10 @@ import React from "react";
 import TextTransition, { presets } from "react-text-transition";
 
 const TEXTS = [
-  "Full Stack Web Developer",
+  "Full Stack Developer",
   "Open-Source Enthusiast",
-  "Data Science Enthusiast"
+  "Data Science Enthusiast",
+  "Traveller",
 ];
 
 const Transition = () => {
@@ -24,7 +25,7 @@ const Transition = () => {
         style={{ textAlign: "center" }}
         text={TEXTS[index % TEXTS.length]}
         springConfig={presets.wobbly}
-      />
+      />{" "}
     </h3>
   );
 };

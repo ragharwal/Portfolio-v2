@@ -26,14 +26,14 @@ const data = {
               Component: AboutBadge,
               props: {
                 aboutBadgeText: "Languages:",
-                aboutBadgeSubtext: "C/C++ , Java, Javascript and Python",
+                aboutBadgeSubtext: "C/C++ , Python, Javascript and Dart",
               },
             },
             {
               Component: AboutBadge,
               props: {
-                aboutBadgeText: "Frameworks:",
-                aboutBadgeSubtext: "Node JS, React JS and DJango",
+                aboutBadgeText: "Frameworks",
+                aboutBadgeSubtext: "Reactjs, Nodejs  and Flutter",
               },
             },
             {
@@ -47,7 +47,7 @@ const data = {
               Component: AboutBadge,
               props: {
                 aboutBadgeText: "Software:",
-                aboutBadgeSubtext: "Atom, VSCode, Sublime and Intellij Idea",
+                aboutBadgeSubtext: "VSCode, Android Studio, Sublime",
               },
             },
           ],
@@ -121,8 +121,7 @@ const data = {
               Component: ProjectCard,
               props: {
                 name: "Open Blog",
-                description:
-                  "Designed the backend for them under collab 1009 ",
+                description: "Designed the backend for them under collab 1009 ",
                 features: ["Snappprr", "Grid Filter"],
                 url: "https://github.com/upes-open/Open-Blog",
               },
@@ -131,8 +130,7 @@ const data = {
               Component: ProjectCard,
               props: {
                 name: "Weather Clock",
-                description:
-                  "A clock that displays the time and temperature. ",
+                description: "A clock that displays the time and temperature. ",
                 features: ["Snappprr", "Grid Filter"],
                 url: "https://github.com/ragharwal/Weather-Clock",
               },
@@ -141,8 +139,7 @@ const data = {
               Component: ProjectCard,
               props: {
                 name: "Tic Tac Toe",
-                description:
-                  "Play the classic Tic-Tac-Toe game. ",
+                description: "Play the classic Tic-Tac-Toe game. ",
                 features: ["Snappprr", "Grid Filter"],
                 url: "https://github.com/ragharwal/Tic-Tac-Toe",
               },
@@ -191,23 +188,12 @@ const data = {
             {
               Component: WorkExCard,
               props: {
-                from: "April, 2021",
-                to: "Present",
-                companyName: "ThinkBig Data Community",
-                role: "Technical Head",
+                from: "Feb, 2021",
+                to: "May, 2021",
+                companyName: "Cerebro Kids",
+                role: "Web Developer",
                 description:
-                  "Responsible for developing and maintaining the website, as well as assigning tasks to committee members and ensuring that everything runs well.",
-              },
-            },
-            {
-              Component: WorkExCard,
-              props: {
-                from: "Jan, 2021",
-                to: "Present",
-                companyName: "National Service Scheme",
-                role: "Core Committee Member",
-                description:
-                "Capture key moments through my lens in order to narrate a story to others.",
+                  "Enhanced and managed their offical website using HTML, CSS and JS, helped SEO team in improving the overall rankings, added new pages for Financial Literacy Olympiad and gave a fresh look to the login page of their CMS.",
               },
             },
             {
@@ -218,18 +204,29 @@ const data = {
                 companyName: "Open Community",
                 role: "Lead Student Developer",
                 description:
-                  "For collab 1001 as well as 1009 and Responsible for developing and maintaining the website.",
+                  "Devised the app named AUTO-INFIRMARY using flutter framework which helped students and faculties in case of any medical emergency, implemented authentication using Nodejs for Open Blog Platform, developed the official website of OPEN community using Reactjs.",
               },
             },
             {
               Component: WorkExCard,
               props: {
-                from: "Jan, 2020",
-                to: "Sep, 2020",
-                companyName: "MIDAS",
-                role: "Member Secretory",
+                from: "Sept, 2020",
+                to: "Present",
+                companyName: "Hypervision",
+                role: "Associate Technical Head",
                 description:
-                  "Responsible for planning and convening Board meetings, as well as keeping track of the events. ",
+                  "Planned and headed a successful technical event named DECODE-THE-CINECODE. Developing and managing the official webiste of the community.",
+              },
+            },
+            {
+              Component: WorkExCard,
+              props: {
+                from: "Aug, 2020",
+                to: "Oct, 2020",
+                companyName: "HakinCodes",
+                role: "Partcipant",
+                description:
+                  "Got introduced to the open source world and made my first pr.Learned about git in depth and made several valuable contributions. ",
               },
             },
           ],
@@ -248,14 +245,14 @@ const data = {
               props: {
                 to: "Present",
                 from: "July, 2019",
-                role: "B.Tech (Hons) Computer Science and Engineering - Big Data",
+                role: "B.Tech (Hons) Computer Science and Engineering",
                 companyName:
                   "University of Petroleum and Energy Studies, Dehradun",
                 description: [
                   "GPA: 8.81/10",
                   "Lead Student Developer at Open Community",
-                  "Technical Head at ThinkBig Data Community",
-                  "Core Committee Member at National Service Scheme",
+                  " Associate Technical Head at Hypervision",
+                  " Technical Core Committee Member at National Service Scheme",
                 ],
               },
             },
@@ -265,11 +262,11 @@ const data = {
                 to: "March, 2019",
                 from: "April, 2017",
                 role: "Senior Secondary School",
-                companyName: "Asha Modern School, Saharanpur",
+                companyName: "Scholar English Academy, Surat",
                 description: [
-                  "Percentage: 91.1%",
-                  "Member at Discipline Committee",
-                  "Prefect at Marsahal Neil House",
+                  "Percentage: 80%",
+                  "Member of the cricket and debate team",
+                  "Participated in various Maths and Physics olympiads",
                 ],
               },
             },
@@ -279,11 +276,11 @@ const data = {
                 to: "March, 2017",
                 from: "April, 2015",
                 role: "Secondary School",
-                companyName: "Asha Mordern School, Saharanpur",
+                companyName: "Delhi Public School, Surat",
                 description: [
-                  "CGPA: 7.8/10",
-                  "Member at Prithvi Mitra Society",
-                  "Assistant Prefect at Marsahal Neil House",
+                  "CGPA: 10/10",
+                  "Won best delegate award in DPSSMUN",
+                  "Particpated in various football and basketball competitions",
                 ],
               },
             },
@@ -323,14 +320,14 @@ export default class Index extends Component {
           />
           <div className="profileCard">
             <div className="profileCard__imgWrapper">
-              <img src="/header.png" alt="" loading="lazy" />
+              <img src="/header2.png" alt="" loading="lazy" />
             </div>
             <div className="profileCard__profileImg">
-              <img src="/RaghavAgarwalUPES.jpg" loading="lazy" alt="" />
+              <img src="/SanyamMehendiratta.jpg" loading="lazy" alt="" />
             </div>
             <div className="profileCard__infoWrapper">
               <div className="profileCard__infoWrapper--heading">
-                Raghav Agarwal
+                Sanyam Mehendiratta
               </div>
               <div className="profileCard__infoWrapper--subheading">
                 <div style={{ textAlign: "center" }}>
