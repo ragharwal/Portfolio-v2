@@ -17,8 +17,7 @@ const data = {
       {
         heading: "About Me",
         topSection: {
-          heading: "I am Raghav Agarwal",
-          text: "I am Raghav Agarwal",
+          text: "Seeking to develop a career as a Data Scientist to assist pharmaceuticals in identifying flaws and propelling the company to new heights. ",
         },
         bottomSection: {
           heading: "",
@@ -78,6 +77,106 @@ const data = {
                 url: "https://snappprr.web.app",
               },
             },
+            {
+              Component: ProjectCard,
+              props: {
+                name: "Mystical Reader",
+                description:
+                  "This website is for client Mystical Reader; Customized according to client needs.",
+                features: ["Snappprr", "Grid Filter"],
+                url: "http://mysticalreader.herokuapp.com/",
+              },
+            },
+            {
+              Component: ProjectCard,
+              props: {
+                name: "Herbal Formulations",
+                description:
+                  "This website is for M/S Herbal Formulations; Customized according to client needs.",
+                features: ["Snappprr", "Grid Filter"],
+                url: "https://herbalformulations.co",
+              },
+            },
+            {
+              Component: ProjectCard,
+              props: {
+                name: "Chander Prakash Bhatia And Sons",
+                description:
+                  "This website is for M/S Chander Prakash Bhatia And Sons. This site has been customized according to client needs. ",
+                features: ["Snappprr", "Grid Filter"],
+                url: "https://chanderprakashbhatiaands-46ca9.web.app/",
+              },
+            },
+            {
+              Component: ProjectCard,
+              props: {
+                name: "Url Shortner",
+                description:
+                  "A webpage that can shorten any site URL and show how many times it is opened with a short URL.  ",
+                features: ["Snappprr", "Grid Filter"],
+                url: "https://github.com/ragharwal/URL-Shortener",
+              },
+            },
+            {
+              Component: ProjectCard,
+              props: {
+                name: "Open Blog",
+                description:
+                  "Designed the backend for them under collab 1009 ",
+                features: ["Snappprr", "Grid Filter"],
+                url: "https://github.com/upes-open/Open-Blog",
+              },
+            },
+            {
+              Component: ProjectCard,
+              props: {
+                name: "Weather Clock",
+                description:
+                  "A clock that displays the time and temperature. ",
+                features: ["Snappprr", "Grid Filter"],
+                url: "https://github.com/ragharwal/Weather-Clock",
+              },
+            },
+            {
+              Component: ProjectCard,
+              props: {
+                name: "Tic Tac Toe",
+                description:
+                  "Play the classic Tic-Tac-Toe game. ",
+                features: ["Snappprr", "Grid Filter"],
+                url: "https://github.com/ragharwal/Tic-Tac-Toe",
+              },
+            },
+            {
+              Component: ProjectCard,
+              props: {
+                name: "Dictionary App",
+                description:
+                  "An offline dictionary app in which user can search the word meaning.  ",
+                features: ["Snappprr", "Grid Filter"],
+                url: "https://github.com/ragharwal/Dictionary-App",
+              },
+            },
+            {
+              Component: ProjectCard,
+              props: {
+                name: "Whatsapp Automation",
+                description:
+                  "WhatsApp automation will automatically send a text to your friends, colleague, etc.   ",
+                features: ["Snappprr", "Grid Filter"],
+                url: "https://github.com/ragharwal/whatsapp-automation",
+              },
+            },
+            {
+              Component: ProjectCard,
+              props: {
+                name: "Email Bot",
+                description:
+                  "Email bot is going to make your life easier. You need to speak the name of the person you want to send an email. And it will automatically ask you the subject and body of the email.  ",
+                features: ["Snappprr", "Grid Filter"],
+                url: "https://github.com/ragharwal/Email-Bot",
+              },
+            },
           ],
         },
       },
@@ -97,7 +196,7 @@ const data = {
                 companyName: "ThinkBig Data Community",
                 role: "Technical Head",
                 description:
-                  "Developed an e-commerce consumer facing website template.",
+                  "Responsible for developing and maintaining the website, as well as assigning tasks to committee members and ensuring that everything runs well.",
               },
             },
             {
@@ -108,7 +207,7 @@ const data = {
                 companyName: "National Service Scheme",
                 role: "Core Committee Member",
                 description:
-                  "Developed an e-commerce consumer facing website template.",
+                "Capture key moments through my lens in order to narrate a story to others.",
               },
             },
             {
@@ -119,18 +218,18 @@ const data = {
                 companyName: "Open Community",
                 role: "Lead Student Developer",
                 description:
-                  "Developed an e-commerce consumer facing website template.",
+                  "For collab 1001 as well as 1009 and Responsible for developing and maintaining the website.",
               },
             },
             {
               Component: WorkExCard,
               props: {
                 from: "Jan, 2020",
-                to: "Present",
+                to: "Sep, 2020",
                 companyName: "MIDAS",
                 role: "Member Secretory",
                 description:
-                  "Developed an e-commerce consumer facing website template.",
+                  "Responsible for planning and convening Board meetings, as well as keeping track of the events. ",
               },
             },
           ],

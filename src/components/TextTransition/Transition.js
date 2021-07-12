@@ -2,10 +2,9 @@ import React from "react";
 import TextTransition, { presets } from "react-text-transition";
 
 const TEXTS = [
-  "Software Developer",
+  "Full Stack Web Developer",
   "Open-Source Enthusiast",
-  "Traveller",
-  "Gamer",
+  "Data Science Enthusiast"
 ];
 
 const Transition = () => {
