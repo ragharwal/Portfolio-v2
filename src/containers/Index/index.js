@@ -2,13 +2,14 @@ import React, { Component } from "react";
 import SocialLinks from "../../components/SocialLinks";
 import ProfileCardFooter from "../../components/ProfileCardFooter";
 import ProfileInfo from "../../components/ProfileInfo";
-import InfoBadge from "../../components/InfoBadge";
-import ProgressBar from "../../components/ProgressBar";
+import AboutBadge from "../../components/AboutBadge";
 import WorkExCard from "../../components/WorkExCard";
+import ProjectCard from "../../components/ProjectCard";
 import NavigationTab from "../../components/NavigationTab";
 import { detectMobile } from "../../utils/helper";
 import "./index.scss";
 import Highlights from "../../components/Highlights";
+import Transition from "../../components/TextTransition/Transition";
 
 const data = {
   about: {
@@ -16,36 +17,38 @@ const data = {
       {
         heading: "About Me",
         topSection: {
-          heading: "",
-          text: "description",
+          heading: "I am Raghav Agarwal",
+          text: "I am Raghav Agarwal",
         },
         bottomSection: {
           heading: "",
           list: [
             {
-              Component: InfoBadge,
-              props: { badgeText: "Age", badgeSubtext: 21 },
-            },
-            {
-              Component: InfoBadge,
+              Component: AboutBadge,
               props: {
-                badgeText: "Residence",
-                badgeSubtext: "UttarPradesh, India",
+                aboutBadgeText: "Languages:",
+                aboutBadgeSubtext: "C/C++ , Java, Javascript and Python",
               },
             },
-
-            // {
-            //   Component: InfoBadge,
-            //   props: {
-            //     badgeText: "Current Role",
-            //     badgeSubtext: "Developer",
-            //   },
-            // },
             {
-              Component: InfoBadge,
+              Component: AboutBadge,
               props: {
-                badgeText: "Email",
-                badgeSubtext: "xyz@gmail.com",
+                aboutBadgeText: "Frameworks:",
+                aboutBadgeSubtext: "Node JS, React JS and DJango",
+              },
+            },
+            {
+              Component: AboutBadge,
+              props: {
+                aboutBadgeText: "Database:",
+                aboutBadgeSubtext: "MySQL, Oracle, SQLite and MongoDB",
+              },
+            },
+            {
+              Component: AboutBadge,
+              props: {
+                aboutBadgeText: "Software:",
+                aboutBadgeSubtext: "Atom, VSCode, Sublime and Intellij Idea",
               },
             },
           ],
@@ -62,42 +65,18 @@ const data = {
   skills: {
     sections: [
       {
-        heading: "Skills",
+        heading: "Projects",
         bottomSection: {
           list: [
             {
-              Component: ProgressBar,
-              props: { name: "Javascript", highLight: 90 },
-            },
-            {
-              Component: ProgressBar,
-              props: { name: "React JS", highLight: 85 },
-            },
-            {
-              Component: ProgressBar,
-              props: { name: "Redux JS", highLight: 75 },
-            },
-            {
-              Component: ProgressBar,
-              props: { name: "Node JS", highLight: 80 },
-            },
-            {
-              Component: ProgressBar,
-              props: { name: "HTML", highLight: 70 },
-            },
-            {
-              Component: ProgressBar,
-              props: { name: "CSS", highLight: 65 },
-            },
-            { Component: ProgressBar, props: { name: "Nginx", highLight: 80 } },
-            {
-              Component: ProgressBar,
-              props: { name: "Web Performace", highLight: 75 },
-            },
-            { Component: ProgressBar, props: { name: "Redis", highLight: 65 } },
-            {
-              Component: ProgressBar,
-              props: { name: "AWS", highLight: 60 },
+              Component: ProjectCard,
+              props: {
+                name: "SNAPPPRR",
+                description:
+                  "A photography webpage that is build in a grid-filter form to display images. ",
+                features: ["Snappprr", "Grid Filter"],
+                url: "https://snappprr.web.app",
+              },
             },
           ],
         },
@@ -113,10 +92,43 @@ const data = {
             {
               Component: WorkExCard,
               props: {
-                from: "Feb, 2021",
-                to: "May, 2021",
-                companyName: "Cerebro Kids",
-                role: "Intern",
+                from: "April, 2021",
+                to: "Present",
+                companyName: "ThinkBig Data Community",
+                role: "Technical Head",
+                description:
+                  "Developed an e-commerce consumer facing website template.",
+              },
+            },
+            {
+              Component: WorkExCard,
+              props: {
+                from: "Jan, 2021",
+                to: "Present",
+                companyName: "National Service Scheme",
+                role: "Core Committee Member",
+                description:
+                  "Developed an e-commerce consumer facing website template.",
+              },
+            },
+            {
+              Component: WorkExCard,
+              props: {
+                from: "Oct, 2020",
+                to: "Present",
+                companyName: "Open Community",
+                role: "Lead Student Developer",
+                description:
+                  "Developed an e-commerce consumer facing website template.",
+              },
+            },
+            {
+              Component: WorkExCard,
+              props: {
+                from: "Jan, 2020",
+                to: "Present",
+                companyName: "MIDAS",
+                role: "Member Secretory",
                 description:
                   "Developed an e-commerce consumer facing website template.",
               },
@@ -136,13 +148,15 @@ const data = {
               Component: WorkExCard,
               props: {
                 to: "Present",
-                from: "May, 2019",
-                role: "Bacherlors of Technology, Computer Science and Engineering",
-                companyName: "University of Petroleum and Energy Studies",
+                from: "July, 2019",
+                role: "B.Tech (Hons) Computer Science and Engineering - Big Data",
+                companyName:
+                  "University of Petroleum and Energy Studies, Dehradun",
                 description: [
-                  "CGPA: 9.08/10",
-                  "Lead Student Developer at UPES-OPEN | Open source organisation",
-                  "Associate Technical Head of UPES-Hypersvision",
+                  "GPA: 8.81/10",
+                  "Lead Student Developer at Open Community",
+                  "Technical Head at ThinkBig Data Community",
+                  "Core Committee Member at National Service Scheme",
                 ],
               },
             },
@@ -150,22 +164,27 @@ const data = {
               Component: WorkExCard,
               props: {
                 to: "March, 2019",
-                from: "March, 2017",
+                from: "April, 2017",
                 role: "Senior Secondary School",
-                companyName: "Scholar English Academy",
-                description: ["Scored 80%", "Part of cricket and debate team"],
+                companyName: "Asha Modern School, Saharanpur",
+                description: [
+                  "Percentage: 91.1%",
+                  "Member at Discipline Committee",
+                  "Prefect at Marsahal Neil House",
+                ],
               },
             },
             {
               Component: WorkExCard,
               props: {
                 to: "March, 2017",
-                from: "March, 2015",
+                from: "April, 2015",
                 role: "Secondary School",
-                companyName: "Delhi Public School Surat",
+                companyName: "Asha Mordern School, Saharanpur",
                 description: [
-                  "CGPA: 10/10",
-                  "Won several prizes for debate and art competitions",
+                  "CGPA: 7.8/10",
+                  "Member at Prithvi Mitra Society",
+                  "Assistant Prefect at Marsahal Neil House",
                 ],
               },
             },
@@ -208,14 +227,16 @@ export default class Index extends Component {
               <img src="/header.png" alt="" loading="lazy" />
             </div>
             <div className="profileCard__profileImg">
-              <img src="/profile_img.jpg" loading="lazy" alt="" />
+              <img src="/RaghavAgarwalUPES.jpg" loading="lazy" alt="" />
             </div>
             <div className="profileCard__infoWrapper">
               <div className="profileCard__infoWrapper--heading">
-                Sanyam Mehendiratta
+                Raghav Agarwal
               </div>
               <div className="profileCard__infoWrapper--subheading">
-                Software Developer
+                <div style={{ textAlign: "center" }}>
+                  <Transition />
+                </div>
               </div>
               <SocialLinks />
               <ProfileCardFooter />

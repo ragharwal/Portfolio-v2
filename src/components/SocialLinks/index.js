@@ -1,10 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faYoutube,
   faGithub,
   faLinkedin,
   faInstagram,
+  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import "./index.scss";
 
@@ -12,7 +12,7 @@ export default (props) => {
   return (
     <div className="socialLinks">
       <a
-        href="https://www.linkedin.com/in/sanyam-mehendiratta-2b0640190/"
+        href="https://www.linkedin.com/in/ragharwal/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -23,7 +23,7 @@ export default (props) => {
         />
       </a>
       <a
-        href="https://github.com/Sanyam2000-dot"
+        href="https://github.com/ragharwal"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -34,7 +34,7 @@ export default (props) => {
         />
       </a>
       <a
-        href="https://www.instagram.com/sanyam.mehendiratta/"
+        href="https://www.instagram.com/raghrwal/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -45,12 +45,12 @@ export default (props) => {
         />
       </a>
       <a
-        href="https://www.youtube.com/channel/UCkrbXtTt7qJaHuNibvMCyOA"
+        href="https://www.twitter.com/ragharwal/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <FontAwesomeIcon
-          icon={faYoutube}
+          icon={faTwitter}
           className="socialLinks__icons"
           size="1x"
         />

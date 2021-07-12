@@ -1,0 +1,47 @@
+@import "../../styles/colors";
+.projectCard {
+    padding-bottom: 8px;
+    width: 90%;
+    &__name {
+        font-weight: 600;
+        color: $headingSecondary;
+        margin-bottom: 4px;
+    }
+    &__badge {
+        border: 1px solid $heading;
+        color: $heading;
+        background-color: transparent;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    &__features {
+        margin-top: 24px;
+        li {
+            margin-left: 25px;
+            margin-bottom: 4px;
+        }
+    }
+    &__divider {
+        height: 1px;
+        background-color: $borderColor;
+        margin: 12px 0px;
+    }
+    &__url {
+        margin: 20px;
+        background-color: #F9826C;
+        color: white;
+        border-radius: 2rem;
+        width: 30%;
+        height: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+        }
+    }
+}
