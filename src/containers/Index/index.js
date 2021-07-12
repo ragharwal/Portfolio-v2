@@ -2,9 +2,7 @@ import React, { Component } from "react";
 import SocialLinks from "../../components/SocialLinks";
 import ProfileCardFooter from "../../components/ProfileCardFooter";
 import ProfileInfo from "../../components/ProfileInfo";
-import InfoBadge from "../../components/InfoBadge";
 import AboutBadge from "../../components/AboutBadge";
-import ProgressBar from "../../components/ProgressBar";
 import WorkExCard from "../../components/WorkExCard";
 import ProjectCard from "../../components/ProjectCard";
 import NavigationTab from "../../components/NavigationTab";
@@ -77,7 +75,11 @@ const data = {
                 description:
                   "A photography webpage that is build in a grid-filter form to display images. ",
                 features: ["Snappprr", "Grid Filter"],
+<<<<<<< HEAD
                 url: "http://facebook.com",
+=======
+                url: "https://snappprr.web.app",
+>>>>>>> 265d3f88c0e237dae5103e6d3bc0bcfa81355882
               },
             },
           ],

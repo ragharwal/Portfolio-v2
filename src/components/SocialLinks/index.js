@@ -1,10 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faYoutube,
   faGithub,
   faLinkedin,
   faInstagram,
+  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import "./index.scss";
 
@@ -45,12 +45,12 @@ export default (props) => {
         />
       </a>
       <a
-        href="https://www.youtube.com/channel/UCkrbXtTt7qJaHuNibvMCyOA"
+        href="https://www.twitter.com/ragharwal/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <FontAwesomeIcon
-          icon={faYoutube}
+          icon={faTwitter}
           className="socialLinks__icons"
           size="1x"
         />
