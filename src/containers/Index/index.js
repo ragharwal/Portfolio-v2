@@ -77,11 +77,7 @@ const data = {
                 description:
                   "A photography webpage that is build in a grid-filter form to display images. ",
                 features: ["Snappprr", "Grid Filter"],
-<<<<<<< HEAD
-                url: "http://facebook.com",
-=======
-                url: "https://dare2compete.com/",
->>>>>>> 9d1bc299305b1d30196385006ffb77fb30f76fd5
+                url: "https://snappprr.web.app",
               },
             },
           ],
