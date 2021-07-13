@@ -17,7 +17,7 @@ const data = {
       {
         heading: "About Me",
         topSection: {
-          text: "Seeking to develop a career as a Data Scientist to assist pharmaceuticals in identifying flaws and propelling the company to new heights. ",
+          text: "Plenteous and hadworking full stack developer with interest in open source and data science. Always ready to take challenges and lead my way thorugh it. Seeking to develop my carrer as a Software Developer. Passionate about developing scaled web applications.",
         },
         bottomSection: {
           heading: "",
@@ -33,7 +33,7 @@ const data = {
               Component: AboutBadge,
               props: {
                 aboutBadgeText: "Frameworks",
-                aboutBadgeSubtext: "Reactjs, Nodejs  and Flutter",
+                aboutBadgeSubtext: "Reactjs, Nodejs, Express and Flutter",
               },
             },
             {
@@ -47,7 +47,7 @@ const data = {
               Component: AboutBadge,
               props: {
                 aboutBadgeText: "Software:",
-                aboutBadgeSubtext: "VSCode, Android Studio, Sublime",
+                aboutBadgeSubtext: "VSCode, Android Studio and Sublime",
               },
             },
           ],
@@ -70,108 +70,40 @@ const data = {
             {
               Component: ProjectCard,
               props: {
-                name: "SNAPPPRR",
+                name: "OPEN WEB",
                 description:
-                  "A photography webpage that is build in a grid-filter form to display images. ",
-                features: ["Snappprr", "Grid Filter"],
-                url: "https://snappprr.web.app",
+                  "Open Web is basically the community website which gives information about the organisation, projects, events and team members. Purely made in reactjs.",
+                features: [
+                  "Displays all the active projects on the projects page using GitHub API",
+                  "Upcoming features include commits by particular contributor and separate dashboard for admin and users.",
+                ],
+                url: "https://upes-open.org/",
               },
             },
             {
               Component: ProjectCard,
               props: {
-                name: "Mystical Reader",
+                name: "IMAGE PICKER",
                 description:
-                  "This website is for client Mystical Reader; Customized according to client needs.",
-                features: ["Snappprr", "Grid Filter"],
-                url: "http://mysticalreader.herokuapp.com/",
+                  "Image Picker is a app made using flutter framework which can capture the image using built in camera or any external camera to the phone and shows it to the main screen. Moreover we can alse select image from the local storage and displays it on the main screen.",
+                features: [
+                  "Displays the image by selecting from the local storage on the main screen.",
+                  "Captures the image using the built in camera and displays it on the main screen.",
+                ],
+                url: "https://github.com/Sanyam2000-dot/Image_picker",
               },
             },
             {
               Component: ProjectCard,
               props: {
-                name: "Herbal Formulations",
+                name: "OpenCV TUTORIALS",
                 description:
-                  "This website is for M/S Herbal Formulations; Customized according to client needs.",
-                features: ["Snappprr", "Grid Filter"],
-                url: "https://herbalformulations.co",
-              },
-            },
-            {
-              Component: ProjectCard,
-              props: {
-                name: "Chander Prakash Bhatia And Sons",
-                description:
-                  "This website is for M/S Chander Prakash Bhatia And Sons. This site has been customized according to client needs. ",
-                features: ["Snappprr", "Grid Filter"],
-                url: "https://chanderprakashbhatiaands-46ca9.web.app/",
-              },
-            },
-            {
-              Component: ProjectCard,
-              props: {
-                name: "Url Shortner",
-                description:
-                  "A webpage that can shorten any site URL and show how many times it is opened with a short URL.  ",
-                features: ["Snappprr", "Grid Filter"],
-                url: "https://github.com/ragharwal/URL-Shortener",
-              },
-            },
-            {
-              Component: ProjectCard,
-              props: {
-                name: "Open Blog",
-                description: "Designed the backend for them under collab 1009 ",
-                features: ["Snappprr", "Grid Filter"],
-                url: "https://github.com/upes-open/Open-Blog",
-              },
-            },
-            {
-              Component: ProjectCard,
-              props: {
-                name: "Weather Clock",
-                description: "A clock that displays the time and temperature. ",
-                features: ["Snappprr", "Grid Filter"],
-                url: "https://github.com/ragharwal/Weather-Clock",
-              },
-            },
-            {
-              Component: ProjectCard,
-              props: {
-                name: "Tic Tac Toe",
-                description: "Play the classic Tic-Tac-Toe game. ",
-                features: ["Snappprr", "Grid Filter"],
-                url: "https://github.com/ragharwal/Tic-Tac-Toe",
-              },
-            },
-            {
-              Component: ProjectCard,
-              props: {
-                name: "Dictionary App",
-                description:
-                  "An offline dictionary app in which user can search the word meaning.  ",
-                features: ["Snappprr", "Grid Filter"],
-                url: "https://github.com/ragharwal/Dictionary-App",
-              },
-            },
-            {
-              Component: ProjectCard,
-              props: {
-                name: "Whatsapp Automation",
-                description:
-                  "WhatsApp automation will automatically send a text to your friends, colleague, etc.   ",
-                features: ["Snappprr", "Grid Filter"],
-                url: "https://github.com/ragharwal/whatsapp-automation",
-              },
-            },
-            {
-              Component: ProjectCard,
-              props: {
-                name: "Email Bot",
-                description:
-                  "Email bot is going to make your life easier. You need to speak the name of the person you want to send an email. And it will automatically ask you the subject and body of the email.  ",
-                features: ["Snappprr", "Grid Filter"],
-                url: "https://github.com/ragharwal/Email-Bot",
+                  "OpenCV TUTORIALS basically consist of all the small projects that can be made using openCV python. Great resource for pyhton beginners as well intermediates. This public repository welcomes all open source enthusiasts and help them to start their open source journey.",
+                features: [
+                  "Multiple projects including live camera, road lines detector and face detection.",
+                  "It also include projects like invisible cloak which can make you invisible by using particular coloured cloak",
+                ],
+                url: "https://github.com/Sanyam2000-dot/Open-cv-tutorials",
               },
             },
           ],

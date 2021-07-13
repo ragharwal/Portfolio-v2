@@ -5,10 +5,22 @@ export default () => {
   return (
     <div className="highlights">
       <ul>
-        <li>Contributed in Hacktober Fest 2020 with successfull 6 PR's merged.</li>
-        <li>Made to top 10 in the UPES CSI Hackathon.</li>
-        <li>Active contributor of UPES Open Community (An Open Source Organization).</li>
-        <li>Verified and secured 1000+ universities professor's data in Mircosoft Excel for MIDAS.</li>
+        <li>
+          Made several valuable contributions to the reknowned program named
+          HACTOBERFEST with 6 PRs merged.
+        </li>
+        <li>
+          Mentored students to kick off their open source journey through
+          project named BUNK MANAGER under GSSOC.
+        </li>
+        <li>
+          Made to the round 1 of GitHub Externship Program under organisation
+          named KOJ.
+        </li>
+        <li>
+          Lead a successfull technical event named DECODE-THE-CINECODE with more
+          than 70 participants.
+        </li>
         {/* <li>Working as a freelancer for web development.</li> */}
       </ul>
     </div>

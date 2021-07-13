@@ -5,6 +5,7 @@ import {
   faLinkedin,
   faInstagram,
   faTwitter,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import "./index.scss";
 
@@ -51,6 +52,17 @@ export default (props) => {
       >
         <FontAwesomeIcon
           icon={faTwitter}
+          className="socialLinks__icons"
+          size="1x"
+        />
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UCkrbXtTt7qJaHuNibvMCyOA"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FontAwesomeIcon
+          icon={faYoutube}
           className="socialLinks__icons"
           size="1x"
         />
