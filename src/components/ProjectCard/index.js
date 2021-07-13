@@ -27,7 +27,7 @@ export default (props) => {
       {url && (
         <div className="projectCard__url">
           <a href={url} rel="noopener noreferrer" target="_blank">
-            Source Code
+            Know More
           </a>
         </div>
       )}

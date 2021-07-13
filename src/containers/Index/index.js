@@ -26,14 +26,14 @@ const data = {
               Component: AboutBadge,
               props: {
                 aboutBadgeText: "Languages:",
-                aboutBadgeSubtext: "C/C++ , Java, Javascript and Python",
+                aboutBadgeSubtext: "C/C++, Javascript, and Python",
               },
             },
             {
               Component: AboutBadge,
               props: {
                 aboutBadgeText: "Frameworks:",
-                aboutBadgeSubtext: "Node JS, React JS and DJango",
+                aboutBadgeSubtext: "Express JS, React JS (lib), and DJango",
               },
             },
             {
@@ -47,7 +47,7 @@ const data = {
               Component: AboutBadge,
               props: {
                 aboutBadgeText: "Software:",
-                aboutBadgeSubtext: "Atom, VSCode, Sublime and Intellij Idea",
+                aboutBadgeSubtext: "Atom, Visual Studio Code, and Sublime",
               },
             },
           ],
@@ -64,107 +64,20 @@ const data = {
   skills: {
     sections: [
       {
-        heading: "Projects",
+        heading: "Top Projects",
         bottomSection: {
           list: [
             {
               Component: ProjectCard,
               props: {
-                name: "SNAPPPRR",
+                name: "OPEN WEB",
                 description:
-                  "A photography webpage that is build in a grid-filter form to display images. ",
-                features: ["Snappprr", "Grid Filter"],
-                url: "https://snappprr.web.app",
-              },
-            },
-            {
-              Component: ProjectCard,
-              props: {
-                name: "Mystical Reader",
-                description:
-                  "This website is for client Mystical Reader; Customized according to client needs.",
-                features: ["Snappprr", "Grid Filter"],
-                url: "http://mysticalreader.herokuapp.com/",
-              },
-            },
-            {
-              Component: ProjectCard,
-              props: {
-                name: "Herbal Formulations",
-                description:
-                  "This website is for M/S Herbal Formulations; Customized according to client needs.",
-                features: ["Snappprr", "Grid Filter"],
-                url: "https://herbalformulations.co",
-              },
-            },
-            {
-              Component: ProjectCard,
-              props: {
-                name: "Chander Prakash Bhatia And Sons",
-                description:
-                  "This website is for M/S Chander Prakash Bhatia And Sons. This site has been customized according to client needs. ",
-                features: ["Snappprr", "Grid Filter"],
-                url: "https://chanderprakashbhatiaands-46ca9.web.app/",
-              },
-            },
-            {
-              Component: ProjectCard,
-              props: {
-                name: "Url Shortner",
-                description:
-                  "A webpage that can shorten any site URL and show how many times it is opened with a short URL.  ",
-                features: ["Snappprr", "Grid Filter"],
-                url: "https://github.com/ragharwal/URL-Shortener",
-              },
-            },
-            {
-              Component: ProjectCard,
-              props: {
-                name: "Open Blog",
-                description:
-                  "Designed the backend for them under collab 1009 ",
-                features: ["Snappprr", "Grid Filter"],
-                url: "https://github.com/upes-open/Open-Blog",
-              },
-            },
-            {
-              Component: ProjectCard,
-              props: {
-                name: "Weather Clock",
-                description:
-                  "A clock that displays the time and temperature. ",
-                features: ["Snappprr", "Grid Filter"],
-                url: "https://github.com/ragharwal/Weather-Clock",
-              },
-            },
-            {
-              Component: ProjectCard,
-              props: {
-                name: "Tic Tac Toe",
-                description:
-                  "Play the classic Tic-Tac-Toe game. ",
-                features: ["Snappprr", "Grid Filter"],
-                url: "https://github.com/ragharwal/Tic-Tac-Toe",
-              },
-            },
-            {
-              Component: ProjectCard,
-              props: {
-                name: "Dictionary App",
-                description:
-                  "An offline dictionary app in which user can search the word meaning.  ",
-                features: ["Snappprr", "Grid Filter"],
-                url: "https://github.com/ragharwal/Dictionary-App",
-              },
-            },
-            {
-              Component: ProjectCard,
-              props: {
-                name: "Whatsapp Automation",
-                description:
-                  "WhatsApp automation will automatically send a text to your friends, colleague, etc.   ",
-                features: ["Snappprr", "Grid Filter"],
-                url: "https://github.com/ragharwal/whatsapp-automation",
+                  "Open Web is basically the community website which give information about the organisation, projects, events and team members. Purely made in React.",
+                features: [
+                  "Displays all the active projects on the projects page using GitHub API",
+                  "Upcoming features include commits by particular contributor and separate dashboard for admin and users.",
+                ],
+                url: "https://upes-open.org/",
               },
             },
             {
@@ -173,8 +86,30 @@ const data = {
                 name: "Email Bot",
                 description:
                   "Email bot is going to make your life easier. You need to speak the name of the person you want to send an email. And it will automatically ask you the subject and body of the email.  ",
-                features: ["Snappprr", "Grid Filter"],
+                features: ["Libraries used smtplib, speech_recognition and, pyttsx3", 
+                "Upcoming features include an app which will ask you the necessary information and store it automatically."],
                 url: "https://github.com/ragharwal/Email-Bot",
+              },
+            },
+            {
+              Component: ProjectCard,
+              props: {
+                name: "ThinkBig Data Web App",
+                description:
+                  "Devised a Web App for the Community that includes features such as an Automatic Certificate Generator, Blogging, and mailing to users for new Community Newsletter, Event, and Blog. ",
+                features: ["Tech Stack Used: Node JS, Express JS, and MongoDB", "It will be made public soon."],
+                url: "https://thinkbigdata.co.in/",
+              },
+            },
+            {
+              Component: ProjectCard,
+              props: {
+                name: "Dictionary App",
+                description:
+                  "A dictionary app that allows the user to look up the definition of any word. ",
+                features: ["Command-Line Interface",
+                 "Obtain the meaning of the word in a few milliseconds."],
+                url: "https://github.com/ragharwal/Dictionary-App",
               },
             },
           ],
@@ -196,7 +131,7 @@ const data = {
                 companyName: "ThinkBig Data Community",
                 role: "Technical Head",
                 description:
-                  "Responsible for developing and maintaining the website, as well as assigning tasks to committee members and ensuring that everything runs well.",
+                  "Responsible for developing and maintaining the official website of the community, as well as assigning tasks to committee members and ensuring that everything runs well.",
               },
             },
             {
@@ -205,7 +140,7 @@ const data = {
                 from: "Jan, 2021",
                 to: "Present",
                 companyName: "National Service Scheme",
-                role: "Core Committee Member",
+                role: "Photography Core Committee Member",
                 description:
                 "Capture key moments through my lens in order to narrate a story to others.",
               },
@@ -218,7 +153,7 @@ const data = {
                 companyName: "Open Community",
                 role: "Lead Student Developer",
                 description:
-                  "For collab 1001 as well as 1009 and Responsible for developing and maintaining the website.",
+                  "Implemented backend using Node JS for Open Blog (COLLAB 1009) and developing the official website of OPEN community using MERN (COLLAB 1001).",
               },
             },
             {
@@ -226,10 +161,10 @@ const data = {
               props: {
                 from: "Jan, 2020",
                 to: "Sep, 2020",
-                companyName: "MIDAS",
+                companyName: "UPES International Conference",
                 role: "Member Secretory",
                 description:
-                  "Responsible for planning and convening Board meetings, as well as keeping track of the events. ",
+                  "Responsible for planning and convening Board meetings, as well as verified and secured 1000+ universities professor's data in Mircosoft Excel for the Conference on Machine Intelligence and Data Science Applications. ",
               },
             },
           ],
@@ -268,8 +203,8 @@ const data = {
                 companyName: "Asha Modern School, Saharanpur",
                 description: [
                   "Percentage: 91.1%",
-                  "Member at Discipline Committee",
-                  "Prefect at Marsahal Neil House",
+                  "Member of the AMS Discipline Committee",
+                  "Prefect of the AMS Marsahal Neil House",
                 ],
               },
             },
@@ -282,7 +217,7 @@ const data = {
                 companyName: "Asha Mordern School, Saharanpur",
                 description: [
                   "CGPA: 7.8/10",
-                  "Member at Prithvi Mitra Society",
+                  "Member of the Prithvi Mitra club",
                   "Assistant Prefect at Marsahal Neil House",
                 ],
               },
@@ -338,7 +273,7 @@ export default class Index extends Component {
                 </div>
               </div>
               <SocialLinks />
-              <ProfileCardFooter />
+              {/* <ProfileCardFooter /> */}
             </div>
           </div>
           <ProfileInfo data={data[selectedTab]} />

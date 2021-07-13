@@ -5,11 +5,10 @@ export default () => {
   return (
     <div className="highlights">
       <ul>
-        <li>Contributed in Hacktober Fest 2020 with successfull 6 PR's merged.</li>
-        <li>Made to top 10 in the UPES CSI Hackathon.</li>
-        <li>Active contributor of UPES Open Community (An Open Source Organization).</li>
-        <li>Verified and secured 1000+ universities professor's data in Mircosoft Excel for MIDAS.</li>
-        {/* <li>Working as a freelancer for web development.</li> */}
+        <li>Placed in the top 10 in several National Hackathons.</li>
+        <li>Conducted 2 Technical Interviews for the ThinkBig Data Community. </li>
+        <li>Made it to the end of Hacktoberfest 2020 with 6 PR's merged.</li>
+        <li>Verified and secured 1000+ universities professor's data in Mircosoft Excel for the UPES Conference on Machine Intelligence and Data Science Applications.</li>
       </ul>
     </div>
   );
