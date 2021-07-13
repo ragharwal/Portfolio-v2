@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import SocialLinks from "../../components/SocialLinks";
-import ProfileCardFooter from "../../components/ProfileCardFooter";
+// import ProfileCardFooter from "../../components/ProfileCardFooter";
 import ProfileInfo from "../../components/ProfileInfo";
 import AboutBadge from "../../components/AboutBadge";
 import WorkExCard from "../../components/WorkExCard";
