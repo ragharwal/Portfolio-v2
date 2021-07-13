@@ -7,7 +7,7 @@ export default () => {
   return (
     <div className="footerWrapper">
       <a
-        href="#"
+        href="/"
         download="RaghavAgarwal.pdf"
         className="footerWrapper__btn"
       >
