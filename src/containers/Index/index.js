@@ -101,7 +101,7 @@ const data = {
                   "OpenCV TUTORIALS basically consist of all the small projects that can be made using openCV python. Great resource for pyhton beginners as well intermediates. This public repository welcomes all open source enthusiasts and help them to start their open source journey.",
                 features: [
                   "Multiple projects including live camera, road lines detector and face detection.",
-                  "It also include projects like invisible cloak which can make you invisible by using particular coloured cloak",
+                  "It also include projects like invisible cloak which can make you invisible by using particular coloured cloak. ",
                 ],
                 url: "https://github.com/Sanyam2000-dot/Open-cv-tutorials",
               },
