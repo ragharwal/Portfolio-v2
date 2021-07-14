@@ -218,7 +218,7 @@ const data = {
                 description: [
                   "CGPA: 7.8/10",
                   "Member of the Prithvi Mitra club",
-                  "Assistant Prefect at Marsahal Neil House",
+                  "Assistant Prefect of the AMS Marsahal Neil House",
                 ],
               },
             },
@@ -258,7 +258,7 @@ export default class Index extends Component {
           />
           <div className="profileCard">
             <div className="profileCard__imgWrapper">
-              <img src="/header.png" alt="" loading="lazy" />
+              <img src="/header.jpg" alt="" loading="lazy" />
             </div>
             <div className="profileCard__profileImg">
               <img src="/RaghavAgarwalUPES.jpg" loading="lazy" alt="" />
