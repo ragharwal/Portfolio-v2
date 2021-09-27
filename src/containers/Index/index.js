@@ -98,7 +98,7 @@ const data = {
                 description:
                   "Devised a Web App for the Community that includes features such as an Automatic Certificate Generator, Blogging, and mailing to users for new Community Newsletter, Event, and Blog. ",
                 features: ["Tech Stack Used: Node JS, Express JS, and MongoDB", "It will be made public soon."],
-                url: "https://thinkbigdata.co.in/",
+                url: "http://upesthinkbigdata.in/",
               },
             },
             {
@@ -123,6 +123,17 @@ const data = {
         heading: "Work Experience",
         bottomSection: {
           list: [
+            {
+              Component: WorkExCard,
+              props: {
+                from: "Aug, 2021",
+                to: "Present",
+                companyName: "Aiotize",
+                role: "Full Stack Developer - Intern",
+                description:
+                  "",
+              },
+            },
             {
               Component: WorkExCard,
               props: {
