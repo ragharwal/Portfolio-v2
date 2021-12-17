@@ -11,13 +11,16 @@ import "./index.scss";
 import Highlights from "../../components/Highlights";
 import Transition from "../../components/TextTransition/Transition";
 
+// text: "Seeking to develop a career as a Data Scientist to assist pharmaceuticals in identifying flaws and propelling the company to new heights. ",
+        
+
 const data = {
   about: {
     sections: [
       {
         heading: "About Me",
         topSection: {
-          text: "Seeking to develop a career as a Data Scientist to assist pharmaceuticals in identifying flaws and propelling the company to new heights. ",
+          text: "Always ready to take on new challenges and lead the way through them."
         },
         bottomSection: {
           heading: "",
@@ -126,12 +129,23 @@ const data = {
             {
               Component: WorkExCard,
               props: {
-                from: "Aug, 2021",
-                to: "Present",
-                companyName: "Aiotize",
+                from: "September, 2021",
+                to: "November, 2021",
+                companyName: "Aiotize - Bridging Spaces",
                 role: "Full Stack Developer - Intern",
                 description:
-                  "",
+                  "Developed the offical company's website to showcase their business solutions as well as devised the dasboard using React JS which is connected to their cloud pipeline to manage and configure the communications. ",
+              },
+            },
+            {
+              Component: WorkExCard,
+              props: {
+                from: "September, 2021",
+                to: "Present",
+                companyName: "Google Developer Student Club - GDSC",
+                role: "Core Member",
+                description:
+                  "Responsible for conducting workshops on services provided by Google. ",
               },
             },
             {
@@ -139,7 +153,7 @@ const data = {
               props: {
                 from: "April, 2021",
                 to: "Present",
-                companyName: "ThinkBig Data Community",
+                companyName: "ThinkBig Data Community, UPES",
                 role: "Technical Head",
                 description:
                   "Responsible for developing and maintaining the official website of the community, as well as assigning tasks to committee members and ensuring that everything runs well.",
@@ -150,8 +164,8 @@ const data = {
               props: {
                 from: "Jan, 2021",
                 to: "Present",
-                companyName: "National Service Scheme",
-                role: "Photography Core Committee Member",
+                companyName: "National Service Scheme, UPES",
+                role: "Core Committee Member",
                 description:
                 "Capture key moments through my lens in order to narrate a story to others.",
               },
@@ -161,7 +175,7 @@ const data = {
               props: {
                 from: "Oct, 2020",
                 to: "Present",
-                companyName: "Open Community",
+                companyName: "Open Community, UPES",
                 role: "Lead Student Developer",
                 description:
                   "Implemented backend using Node JS for Open Blog (COLLAB 1009) and developing the official website of OPEN community using MERN (COLLAB 1001).",
@@ -199,6 +213,8 @@ const data = {
                   "University of Petroleum and Energy Studies, Dehradun",
                 description: [
                   "GPA: 8.81/10",
+                  "Beat Patrol Member at Discipline Committee of UPES",
+                  "Core Member at Google Developer Student Club",
                   "Lead Student Developer at Open Community",
                   "Technical Head at ThinkBig Data Community",
                   "Core Committee Member at National Service Scheme",
@@ -228,7 +244,7 @@ const data = {
                 companyName: "Asha Mordern School, Saharanpur",
                 description: [
                   "CGPA: 7.8/10",
-                  "Member of the Prithvi Mitra club",
+                  "Member of the AMS Prithvi Mitra club",
                   "Assistant Prefect of the AMS Marsahal Neil House",
                 ],
               },
